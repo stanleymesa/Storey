@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/gradient_dark_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_cameraswitch_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/round_tablayout_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/github/Storey/app/src/main/res/drawable/text_input_box_stroke_color.xml" value="0.25833333333333336" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_add_story.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_camera.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_detail.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_login.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_maps.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/activity_splash.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/content_add_story.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/content_detail.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/content_main.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/content_maps.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/fragment_login.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/fragment_register.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/image_story_widget.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/item_loading.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/item_row_coba.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/item_row_main.xml" value="0.264" />
+        <entry key="..\:/github/Storey/app/src/main/res/layout/widget_item.xml" value="0.2421875" />
+        <entry key="..\:/github/Storey/app/src/main/res/menu/main_menu.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name" translatable="false">Storey</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="storey" translatable="false">Storey</string>
+    <!-- Strings related to login -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email_error">Email must be a valid email</string>
+    <string name="password_error">Password must contain at least 6 characters</string>
+    <string name="field_error">%s field can\'t be empty</string>
+    <string name="register_success">Account has been created! Go login your account</string>
+    <string name="register_error">Oops! Email has been used or invalid input</string>
+    <string name="login_error_400">Oops! Invalid email or password input</string>
+    <string name="login_error_401">Oops! Your email or password may be incorrect</string>
+    <string name="logout">Logout</string>
+    <string name="input_token" translatable="false">Bearer %s</string>
+    <string name="photo" translatable="false">photo</string>
+    <string name="camera_error">Oops, Failed to bring up camera!</string>
+    <string name="take_picture_error">Oops, Failed to take picture!</string>
+    <string name="add_story_title">Add Story</string>
+    <string name="no_camera_permission">Sorry, we need your camera permission to add a story</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="pick_photo_from">Pick photo from :</string>
+    <string name="choose_a_picture">Choose a Picture</string>
+    <string name="error_no_image">Please enter the image first!</string>
+    <string name="upload">Upload</string>
+    <string name="error_upload_story">Oops! Failed uploading story</string>
+    <string name="description">Description</string>
+
+    <plurals name="diff_in_days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+
+    <plurals name="diff_in_hours">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+
+    <plurals name="diff_in_minutes">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+    <plurals name="diff_in_seconds">
+        <item quantity="one">%d second ago</item>
+        <item quantity="other">%d seconds ago</item>
+    </plurals>
+
+    <string name="app_widget_description" translatable="false">Storey Widget</string>
+    <string name="storey_banner" translatable="false">Storey</string>
+    <string name="no_data">Please wait a moment</string>
+    <string name="upload_story_success">Upload Story Success!</string>
+    <string name="change_language">Change Language</string>
+    <string name="empty_desc" translatable="false">...</string>
+    <string name="capturecamera">capture camera</string>
+    <string name="switchcamera">switch camera</string>
+    <string name="floatingactiponbutton" translatable="false">floatingActionButton</string>
+    <string name="preview">preview</string>
+    <string name="story">story</string>
+    <string name="retry">Retry</string>
+    <string name="rto" translatable="false">Request Timed Out</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="add_location">Add Location</string>
+    <string name="no_location_permission">Sorry, we need to access your location to use maps</string>
+    <string name="location_not_found">Location Not Found</string>
+    <string name="save_location">Save Location</string>
+    <string name="change_location">Change Location</string>
+    <string name="open_maps">Open Maps</string>
+    <string name="open_maps_title">User\'s Stories Location</string>
+
+</resources>

@@ -1,0 +1,178 @@
+Unit Test
+
+1. data.repository.RetrofitRepositoryTest
+	a. Ketika register sukses
+		- Memastikan register response dari repository tidak null
+		- Memastikan response sesuai yang diharapkan
+
+	b. Ketika login sukses
+		- Memastikan login response dari repository tidak null
+		- Memastikan response sesuai yang diharapkan
+	
+	c. Ketika mengambil user story 
+		- Memastikan response dari repository tidak null
+
+	d. Ketika mengambil user story widget 
+		- Memastikan response dari repository tidak null
+
+	e. Ketika upload story sukses
+		- Memastikan upload response dari repository tidak null
+		- Memastikan response sesuai yang diharapkan
+
+2. ListStoryItemRepositoryTest
+	a. Ketika get story
+		- memastikan datanya tidak null
+
+3. StoryWidgetRepositoryTest
+	a. Ketika insert story widget
+		- Memastikan data tidak null dan ada isinya
+	b. Ketika delete story widget
+		- Memastikan data kosong
+	c. Ketika get story widget
+		- Memastikan data tidak null
+
+4. ui.viewmodel.AddStoryViewModelTest
+	a. Ketika mengupload story
+		- Memastikan fuction uploadStory dari repository terpanggil
+
+	b. Ketika upload story sukses
+		- Memastikan upload response dari viewModel tidak null
+		- Memastikan response berisi keterangan sukses
+
+	c. Ketika upload story gagal
+		- Memastikan upload response dari viewModel tidak null
+		- Memastikan response berisi error = true
+
+5. DetailViewModelTest
+	a. Ketika mengkonversi latLng menjadi address
+		- Memastikan hasilnya tidak null
+
+6. ListStoryItemViewModelTest
+	a. Ketika get story
+		- Memastikan hasilnya tidak null
+
+7. LoginViewModelTest
+	a. Ketika user login
+		- Memastikan function login dari repository terpanggil
+
+	b. Ketika login sukses
+		- Memastikan login response dari repository tidak null
+		- Memastikan response memberikan token yang sesuai
+
+	c. Ketika login gagal
+		- Memastikan login response dari repository tidak null
+		- Memastikan response memberikan error = true
+
+8. MainViewModelTest
+	a. Ketika mengambil all stories
+		- memastikan memanggil fungsi getAllStories dari repository	
+
+	b. Ketika mengambil story untuk widget
+		- Memastikan memanggil function getStoriesWidget dari repository
+
+	c. Ketika mengambil story untuk widget sukses
+		- Memastikan response tidak null
+		- Memastikan mendapatkan photo url yang sesuai
+
+	d. Ketika mengambil story untuk widget gagal
+		- Memastikan response tidak null
+		- Memastikan response memberikan error = true
+
+
+9. MapsViewModelTest
+	a. Ketika mengkonversi latLng menjadi address
+		- Memastikan hasilnya tidak null
+	b. Ketika men-set LatLng
+		- Memastikan menerima LatLng yang sesuai
+
+10. PrefViewModelTest
+	a. Ketika get session
+		- Memastikan session tidak null
+	
+	b. Ketika user login
+		- Memastikan memanggil function login dari userPreferences
+
+	c. Ketika user logout
+		- Memastikan memanggil function logout dari userPreferences
+
+11. RegisterViewModelTest
+	a. Ketika user register
+		- Memastikan memanggil function register dari repository
+
+	b. Ketika user register sukses
+		- Memastikan response dari repository tidak null
+		- Memastikan mendapatkan response sukses yang sesuai
+
+	c. Ketika user register gagal
+		- Memastikan response dari repository tidak null
+		- Memastikan mendapatkan response gagal yang sesuai
+
+12. StoryWidgetViewModelTest
+	a. Ketika insert story widget
+		- Memastikan data tidak null dan ada isinya
+	b. Ketika delete story widget
+		- Memastikan data kosong
+	c. Ketika get story widget
+		- Memastikan data tidak null
+
+
+Instrumentation Test
+
+5. data.local.database.ListStoryItemDaoTest
+	a. Ketika insert dan get story dari DAO
+		- Memastikan story tidak null
+		- Memastikan id story sama dengan yang diharapkan
+
+	b. Ketika delete story dari DAO
+		- Memastikan table kosong
+
+6. RemoteKeysDaoTest
+	a. Ketika insert dan get remote keys dari DAO
+		- Memastikan remote keys tidak null
+		- Memastikan id remote keys sama dengan yang diharapkan
+
+	b. Ketika delete remote keys dari DAO
+		- Memastikan table kosong
+
+7. StoryWidgetDaoTest
+	a. Ketika insert dan get story untuk widget dari DAO
+		- Memastikan story tidak null
+		- Memastikan id story sama dengan yang diharapkan
+
+	b. Ketika delete story widget dari DAO
+		- Memastikan table kosong 
+
+
+Integration Test
+
+1. ui.activity.MainActivityTest
+	a. Memastikan terdapat Recycler View
+	b. Memastikan terdapat judul Aplikasi "Storey"
+	c. Memastikan recycler view dapat di scroll
+ 
+
+End To End Test
+
+1. ui.activity.MainActivityEndTest
+	a. Memastikan terdapat list story
+	b. Memastikan saat menekan salah satu story akan menuju ke Detail Story
+	c. Memastikan saat di detail story lalu menekan lokasi akan membuka maps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

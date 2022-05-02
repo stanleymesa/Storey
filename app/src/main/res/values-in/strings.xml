@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="name">Nama</string>
+    <string name="register">Daftar</string>
+    <string name="email_error">Email harus valid</string>
+    <string name="password_error">Kata sandi harus mengandung setidaknya 6 karakter</string>
+    <string name="password">Kata Sandi</string>
+    <string name="field_error">%s tidak boleh kosong</string>
+    <string name="login">Masuk</string>
+    <string name="register_success">Akun berhasil dibuat! Silahakan masuk ke akun anda</string>
+    <string name="register_error">Oops! Email sudah terpakai atau tidak valid</string>
+    <string name="login_error_400">Oops! Email atau password tidak valid</string>
+    <string name="login_error_401">Oops! Email atau password anda mungkin salah</string>
+    <string name="logout">Keluar</string>
+    <string name="camera_error">Oops, Gagal membuka kamera!</string>
+    <string name="take_picture_error">Oops, Gagal mengambil gambar!</string>
+    <string name="add_story_title">Tambah Cerita</string>
+    <string name="no_camera_permission">Maaf, kami butuh izin kamera anda untuk menambah cerita</string>
+    <string name="gallery">Galeri</string>
+    <string name="camera">Kamera</string>
+    <string name="pick_photo_from">"Ambil foto dari : "</string>
+    <string name="choose_a_picture">Pilih Gambar</string>
+    <string name="error_no_image">Mohon masukkan gambar dahulu!</string>
+    <string name="upload">Unggah</string>
+    <string name="upload_story_success">Unggah Cerita Sukses!</string>
+    <string name="error_upload_story">Oops! Gagal mengunggah cerita</string>
+    <string name="description">Deskripsi</string>
+    <string name="change_language">Ganti Bahasa</string>
+
+    <plurals name="diff_in_days" tools:ignore="UnusedQuantity">
+        <item quantity="one">%d hari yang lalu</item>
+        <item quantity="other">%d hari yang lalu</item>
+    </plurals>
+
+    <plurals name="diff_in_hours" tools:ignore="UnusedQuantity">
+        <item quantity="one">%d jam yang lalu</item>
+        <item quantity="other">%d jam yang lalu</item>
+    </plurals>
+
+    <plurals name="diff_in_minutes" tools:ignore="UnusedQuantity">
+        <item quantity="one">%d menit yang lalu</item>
+        <item quantity="other">%d menit yang lalu</item>
+    </plurals>
+
+    <plurals name="diff_in_seconds" tools:ignore="UnusedQuantity">
+        <item quantity="one">%d detik yang lalu</item>
+        <item quantity="other">%d Detik yang lalu</item>
+    </plurals>
+    <string name="no_data">Mohon tunggu sebentar</string>
+    <string name="capturecamera">ambil kamera</string>
+    <string name="switchcamera">tukar kamera</string>
+    <string name="preview">pratinjau</string>
+    <string name="story">cerita</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="add_location">Tambah Lokasi</string>
+    <string name="no_location_permission">Maaf, kami butuh izin mengakses lokasi anda untuk menggunakan maps</string>
+    <string name="location_not_found">Lokasi tidak ditemukan</string>
+    <string name="save_location">Simpan Lokasi</string>
+    <string name="change_location">Ganti Lokasi</string>
+    <string name="open_maps">Buka Map</string>
+    <string name="open_maps_title">Lokasi Cerita User</string>
+
+
+</resources>
